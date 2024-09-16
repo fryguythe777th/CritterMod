@@ -1,0 +1,33 @@
+NPCs: {
+	ShrumelingCritter.DisplayName: Shrumeling
+	ShrimpCritter.DisplayName: Shrimp
+	PipspookCritter.DisplayName: Pipspook
+	BloodGlopCritter.DisplayName: Blood Glop
+}
+
+Items: {
+	Shrumeling: {
+		Tooltip: ""
+		DisplayName: Shrumeling
+	}
+
+	Shrimp: {
+		Tooltip: ""
+		DisplayName: Shrimp
+	}
+
+	Pipspook: {
+		Tooltip: ""
+		DisplayName: Pipspook
+	}
+
+	CritterSword: {
+		Tooltip: ""
+		DisplayName: Critter Sword
+	}
+
+	BloodGlop: {
+		DisplayName: Blood Glop
+		Tooltip: ""
+	}
+}
