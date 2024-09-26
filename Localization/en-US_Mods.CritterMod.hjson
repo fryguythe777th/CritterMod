@@ -3,6 +3,7 @@ NPCs: {
 	ShrimpCritter.DisplayName: Shrimp
 	PipspookCritter.DisplayName: Pipspook
 	BloodGlopCritter.DisplayName: Blood Glop
+	PotMimicCritter.DisplayName: Pot Mimic
 }
 
 Items: {
@@ -28,6 +29,11 @@ Items: {
 
 	BloodGlop: {
 		DisplayName: Blood Glop
+		Tooltip: ""
+	}
+
+	PotMimic: {
+		DisplayName: Pot Mimic
 		Tooltip: ""
 	}
 }

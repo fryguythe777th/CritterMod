@@ -45,4 +45,14 @@ namespace CritterMod.Items
             Item.value = Item.sellPrice(silver: 5);
         }
     }
+
+    public class PotMimic : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.DefaultToCapturedCritter((short)ModContent.NPCType<PotMimicCritter>());
+            Item.rare = ItemRarityID.Blue;
+            Item.value = Item.sellPrice(silver: 5);
+        }
+    }
 }
