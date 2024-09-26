@@ -47,7 +47,7 @@ namespace CritterMod.Critters
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			if (Main.LocalPlayer.ZoneGlowshroom)
+			if (Main.LocalPlayer.ZoneGlowshroom && !ServerConfig.Instance.ShrumelingDisable)
 			{
 				return 0.1f;
 			}

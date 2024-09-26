@@ -9,6 +9,7 @@ using Terraria.DataStructures;
 using Terraria.GameContent.Bestiary;
 using Terraria.ID;
 using Terraria.ModLoader;
+using tModPorter;
 
 namespace CritterMod.Critters
 {
@@ -48,7 +49,7 @@ namespace CritterMod.Critters
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			if (Main.LocalPlayer.ZoneCrimson)
+			if (Main.LocalPlayer.ZoneCrimson && !ServerConfig.Instance.BloodGlopDisable)
 			{
 				return 0.2f;
 			}

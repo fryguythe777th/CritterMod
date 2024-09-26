@@ -54,7 +54,7 @@ namespace CritterMod.Critters
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			if (Main.LocalPlayer.ZoneBeach)
+			if (Main.LocalPlayer.ZoneBeach && !ServerConfig.Instance.ShrimpDisable)
 			{
 				return 0.1f;
 			}

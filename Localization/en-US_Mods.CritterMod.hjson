@@ -37,3 +37,34 @@ Items: {
 		Tooltip: ""
 	}
 }
+
+Configs: {
+	ServerConfig: {
+		DisplayName: Critter Spawning Customization
+
+		BloodGlopDisable: {
+			Label: Disable Blood Glops
+			Tooltip: An option for those who really hate having fun.
+		}
+
+		PipspookDisable: {
+			Label: Disable Pipspooks
+			Tooltip: An option for those with no hearts.
+		}
+
+		PotMimicDisable: {
+			Label: Disable Pot Mimics
+			Tooltip: An option for those who just can't handle a little dark humour.
+		}
+
+		ShrimpDisable: {
+			Label: Disable Shrimp
+			Tooltip: An option for those who have ascended to the highest order of evil.
+		}
+
+		ShrumelingDisable: {
+			Label: Disable Shrumelings
+			Tooltip: An option for those who can't stand a little whimsy.
+		}
+	}
+}

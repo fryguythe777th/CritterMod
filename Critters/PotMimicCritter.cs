@@ -48,7 +48,7 @@ namespace CritterMod.Critters
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			if (Main.LocalPlayer.ZoneNormalUnderground || Main.LocalPlayer.ZoneNormalCaverns || (Main.LocalPlayer.ZoneJungle && Main.LocalPlayer.ZoneDirtLayerHeight) || (Main.LocalPlayer.ZoneJungle && Main.LocalPlayer.ZoneRockLayerHeight) || Main.LocalPlayer.ZoneUnderworldHeight || (Main.LocalPlayer.ZoneSnow && Main.LocalPlayer.ZoneDirtLayerHeight) || (Main.LocalPlayer.ZoneSnow && Main.LocalPlayer.ZoneRockLayerHeight) || Main.LocalPlayer.ZoneLihzhardTemple || Main.LocalPlayer.ZoneMarble || Main.LocalPlayer.ZoneUndergroundDesert)
+			if ((Main.LocalPlayer.ZoneNormalUnderground || Main.LocalPlayer.ZoneNormalCaverns || (Main.LocalPlayer.ZoneJungle && Main.LocalPlayer.ZoneDirtLayerHeight) || (Main.LocalPlayer.ZoneJungle && Main.LocalPlayer.ZoneRockLayerHeight) || Main.LocalPlayer.ZoneUnderworldHeight || (Main.LocalPlayer.ZoneSnow && Main.LocalPlayer.ZoneDirtLayerHeight) || (Main.LocalPlayer.ZoneSnow && Main.LocalPlayer.ZoneRockLayerHeight) || Main.LocalPlayer.ZoneLihzhardTemple || Main.LocalPlayer.ZoneMarble || Main.LocalPlayer.ZoneUndergroundDesert) && !ServerConfig.Instance.PotMimicDisable)
 			{
 				return 0.2f;
 			}

@@ -49,7 +49,7 @@ namespace CritterMod.Critters
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			if (Main.LocalPlayer.ZoneGraveyard)
+			if (Main.LocalPlayer.ZoneGraveyard && !ServerConfig.Instance.PipspookDisable)
 			{
 				return 0.2f;
 			}
