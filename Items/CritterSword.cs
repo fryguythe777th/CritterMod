@@ -15,7 +15,7 @@ namespace CritterMod.Items
 
 		public override void SetDefaults()
 		{
-			Item.damage = 50;
+			Item.damage = 450;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
@@ -27,14 +27,6 @@ namespace CritterMod.Items
 			Item.rare = 2;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
-		}
-
-        public override void AddRecipes()
-		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
 		}
 	}
 }
