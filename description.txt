@@ -1,1 +1,12 @@
-critter mod is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+critter mod adds 5 unique and quirky critters to the game
+the critters:
+1. blood glop - spawns in the crimson
+2. pipspook - spawns in graveyards
+3. pot mimic - spawns nearly anywhere underground
+4. shrimp - spawns in the ocean
+5. shrumeling - spawns in the mushroom biome
+
+each critter has a silly way for the player to interact with it in some way
+i will be working on adding more critters
+if you really hate any critter in particular you can disable them in mod config
+contact @fryguythe777th on discord for inquiries

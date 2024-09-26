@@ -13,6 +13,14 @@ namespace CritterMod.Items
             Item.rare = ItemRarityID.Blue;
             Item.value = Item.sellPrice(silver: 5);
         }
+
+        public override void AddRecipes()
+        {
+            Recipe shrimpRecipe = Recipe.Create(ItemID.CookedShrimp);
+            shrimpRecipe.AddIngredient(ModContent.ItemType<Shrimp>());
+            shrimpRecipe.AddTile(TileID.CookingPots);
+            shrimpRecipe.Register();
+        }
     }
 
     public class Shrumeling : ModItem
